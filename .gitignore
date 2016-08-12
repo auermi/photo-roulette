@@ -6,6 +6,9 @@
 build/
 DerivedData/
 
+## Keys to the Kingdom
+Unsplash/Secret.swift
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
