@@ -17,6 +17,7 @@
 		CACF1AC71D5D860E00B64F7A /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CACF1AC11D5D85A300B64F7A /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CACF1ACA1D5D86C800B64F7A /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACF1AC91D5D86C800B64F7A /* SwiftyJSON.framework */; };
 		CACF1ACB1D5D86C800B64F7A /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CACF1AC91D5D86C800B64F7A /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CACF1ACD1D5D8A9600B64F7A /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACF1ACC1D5D8A9600B64F7A /* Secret.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		CA3FC2021D5821640084A568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CACF1AC11D5D85A300B64F7A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		CACF1AC91D5D86C800B64F7A /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		CACF1ACC1D5D8A9600B64F7A /* Secret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				CA3FC1FF1D5821640084A568 /* LaunchScreen.storyboard */,
 				CA3FC2021D5821640084A568 /* Info.plist */,
 				CA3FC1FA1D5821640084A568 /* Unsplash.xcdatamodeld */,
+				CACF1ACC1D5D8A9600B64F7A /* Secret.swift */,
 			);
 			path = Unsplash;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA3FC1FC1D5821640084A568 /* Unsplash.xcdatamodeld in Sources */,
+				CACF1ACD1D5D8A9600B64F7A /* Secret.swift in Sources */,
 				CA3FC1F61D5821640084A568 /* ViewController.swift in Sources */,
 				CA3FC1F41D5821640084A568 /* AppDelegate.swift in Sources */,
 			);
