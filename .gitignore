@@ -7,7 +7,7 @@ build/
 DerivedData/
 
 ## Keys to the Kingdom
-Unsplash/Secret.swift
+PhotoRoulette/Secret.swift
 
 ## Various settings
 *.pbxuser
